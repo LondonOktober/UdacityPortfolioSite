@@ -1,0 +1,59 @@
+/* TODO: Add more to portfolio */
+h1 {
+  color: #2d3c49;
+  text-align: right;
+  font-family: 'Shadows Into Light', cursive;
+}
+h2 {
+  color: #2d3c49;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+h3 {
+  color: #2d3c49;
+  text-align: right;
+  font-family: 'Permanent Marker', cursive;
+}
+h4 {
+  color: #7d97ad;
+  text-align: left;
+  font-family: 'Permanent Marker', cursive;
+}
+p {
+  color: #7d97ad;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+.small-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.line {
+  width: 100%;
+  border: none;
+  height: 3px;
+  background-color: #7d97ad;
+}
+.main-image {
+  width: 100%;
+}
+.med-images {
+  width: 100%;
+}
+.top-row,
+.feature-icons,
+.med-image-container {
+  margin: 30px 15px;
+}
+@media only screen and (max-device-width : 766px) {
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+  }
+}
